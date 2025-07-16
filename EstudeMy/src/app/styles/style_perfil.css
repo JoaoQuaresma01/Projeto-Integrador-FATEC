@@ -1,0 +1,116 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  font-size: 24px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #000;
+}
+
+header h1 span {
+  color: #ff0000;
+}
+
+header .user {
+  display: flex;
+  align-items: center;
+}
+
+header .user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.blue-btn {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.blue-btn:hover {
+  background-color: #0056b3;
+}
+
+.blue-btn br {
+  display: block;
+}
+
+.character img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.character p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+
+.footer-btn {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #d0d0d0;
+}
